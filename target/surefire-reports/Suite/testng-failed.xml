@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Administrator(failed)">
+    <classes>
+      <class name="sfdcdemo.CreateLead">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- sfdcdemo.CreateLead -->
+      <class name="sfdcdemo.Demo">
+        <methods>
+          <include name="testLogin"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- sfdcdemo.Demo -->
+    </classes>
+  </test> <!-- Administrator(failed) -->
+</suite> <!-- Failed suite [Suite] -->

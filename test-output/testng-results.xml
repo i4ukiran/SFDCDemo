@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36100" started-at="2016-01-21T18:45:01Z" finished-at="2016-01-21T18:45:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36100" started-at="2016-01-21T18:45:01Z" finished-at="2016-01-21T18:45:38Z">
+      <class name="sfdcdemo.CreateLead">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:sfdcdemo.CreateLead@4ba56ca0]" name="beforeTest" is-config="true" duration-ms="14376" started-at="2016-01-21T11:45:01Z" finished-at="2016-01-21T11:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="leadCreation()[pri:0, instance:sfdcdemo.CreateLead@4ba56ca0]" name="leadCreation" duration-ms="15670" started-at="2016-01-21T11:45:16Z" finished-at="2016-01-21T11:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadCreation -->
+        <test-method status="PASS" signature="testLead()[pri:0, instance:sfdcdemo.CreateLead@4ba56ca0]" name="testLead" duration-ms="2386" started-at="2016-01-21T11:45:32Z" depends-on-methods="sfdcdemo.CreateLead.leadCreation" finished-at="2016-01-21T11:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLead -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:sfdcdemo.CreateLead@4ba56ca0]" name="afterTest" is-config="true" duration-ms="3647" started-at="2016-01-21T11:45:34Z" finished-at="2016-01-21T11:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- sfdcdemo.CreateLead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
